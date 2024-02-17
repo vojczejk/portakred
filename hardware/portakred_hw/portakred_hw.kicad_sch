@@ -1,0 +1,39 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1dee0f9b-e94c-4c98-8bc3-fa32a62d3b75)
+
+  (paper "A4")
+
+  (title_block
+    (title "PortaKred root")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.18 38.1) (size 35.56 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9be5f799-cb4a-4d87-9aa9-96425e2802da)
+    (property "Sheetname" "nfc" (at 43.18 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "nfc.kicad_sch" (at 43.18 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "SPI_SCK" input (at 78.74 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ce85dee7-34ea-4999-b944-7b983f87428d)
+    )
+    (instances
+      (project "portakred_hw"
+        (path "/1dee0f9b-e94c-4c98-8bc3-fa32a62d3b75" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
