@@ -41,9 +41,10 @@
       - Looks pretty
   - Passive onboard buzzer (Requirement 3.3)
 - Power source 
-  - Li-Ion battery 
-  - Builtin charge circuit
-
+  - *EITHER* Li-Ion battery 
+    - Builtin charge circuit
+  - *OR* External powerbank
+  - *OR* 3xAA batteries, can be rechargable   
 ## References and links
 
 ### NFC Hardware
