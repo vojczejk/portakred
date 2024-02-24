@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IC40_ESP32-S3-WROOM-2-N32R8V_EXP")(type "KiCad")(uri "/home/vojczejk/Workspace/portakred/hardware/libs/IC40_ESP32-S3-WROOM-2-N32R8V_EXP.kicad_sym")(options "")(descr ""))
+)

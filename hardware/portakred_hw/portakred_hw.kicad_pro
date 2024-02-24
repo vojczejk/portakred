@@ -330,6 +330,14 @@
     [
       "9be5f799-cb4a-4d87-9aa9-96425e2802da",
       "nfc"
+    ],
+    [
+      "9fe43873-9afc-4223-a6b8-376f7c009d4e",
+      "Keypad"
+    ],
+    [
+      "d45d6a80-bb31-43ff-b865-4c3ec935f103",
+      "Core MCU"
     ]
   ],
   "text_variables": {}
