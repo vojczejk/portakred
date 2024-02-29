@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "BH-18650-B1BA002")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/symbol/BH-18650-B1BA002.kicad_sym")(options "")(descr ""))
 )

@@ -12,45 +12,40 @@
 5. The device shall provide configuration facilities for provisioning
 6. The device shall be based around sufficiently powerful MCU to enable the use of HTTTPS
 
-
 ## Used components and protocols
 
 - Main MCU - ESP32 based
   - WiFi enable by default (Requirement 1)
   - Powerful enough (Requirement 6)
-  - Probably an WROOM-type module for ease of design
+  - ESP32-S3-WROOM-2
+    - Onboard USB -> no need for USB-UART converter
 - NFC Frontend - PN512 (Requirement 2.*)
   - Cheap well documented solution
   - Already in KiCad (lazy me)
   - Antenna on PCB
-  - SPI or I2C connected
+  - SPI connected
 - Input method
-  - *EITHER* Generic matrix keypad module (Requirement 3.2)
-    - Possibly with I2C I/O extender to save pins, preferably not
-  - *OR* On PCB matrix keyboard with tactile buttons (Requirement 3.2)
-    - Harder to design
-    - Independent on what keyboard module can be sourced
+  - On PCB matrix keyboard with tactile buttons (Requirement 3.2)
 - Output
   - Display
-    - *EITHER* LCD display based on ST7920 or similar (Requirement 3.1)
-      - Larger
+    - LCD display based on ST7920 or similar (Requirement 3.1)
+      - Large
       - Good legibility in sunlight
-    - *OR* OLED based on SSH1106 (Requirement 3.1)
-      - smol
-      - Ok legibility in sunlight
-      - Looks pretty
   - Passive onboard buzzer (Requirement 3.3)
-- Power source 
-  - *EITHER* Li-Ion battery 
+- Power source
+  - Li-Ion battery
     - Builtin charge circuit
-  - *OR* External powerbank
-  - *OR* 3xAA batteries, can be rechargable   
+
 ## References and links
 
 ### NFC Hardware
 
 https://www.nxp.com/products/rfid-nfc/nfc-hf/nfc-readers/pn512-reader-board:PNEV512B - Scheamtics and PCB layout
 
-## Dependencies
+### Dependencies
 
 - https://github.com/espressif/kicad-libraries
+
+### Used tools
+
+- https://github.com/TousstNicolas/JLC2KiCad_lib
